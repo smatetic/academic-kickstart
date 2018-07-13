@@ -2,7 +2,7 @@
 title = "DelegaTEE: Brokered Delegation Using Trusted Execution Environments"
 
 # Date first published.
-date = "2018-08-01"
+date = "2018-07-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Sinisa Matetic", "Moritz Schneider", "Kari Kostiainen", "Andrew Miller", "Ari Juels", "Srdjan Capkun"]
@@ -29,7 +29,7 @@ abstract = "We introduce a new concept called *brokered delegation*. Brokered de
 abstract_short = ""
 
 # Featured image thumbnail (optional)
-# image_preview = ""
+image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -64,8 +64,8 @@ highlight = true
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-#[header]
-#image = ""
-#caption = ""
+[header]
+image = ""
+caption = ""
 
 +++
