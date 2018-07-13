@@ -2,10 +2,11 @@
 title = "A publication title, such as title of a paper"
 
 # Date first published.
-date = "2013-07-01"
+date = "2017-08-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["First author's name", "Second author's name"]
+authors = ["Sinisa Matetic", "Ahmed Mansoor", "Kari Kostiainen",  "Aritra Dhar", "David Sommer", "Arthur
+Gervais", "Ari Juels", "Srdjan Capkun"]
 
 # Publication type.
 # Legend:
@@ -19,12 +20,16 @@ authors = ["First author's name", "Second author's name"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *International Conference on Academic*. You may use *Markdown* for italics etc."
-publication_short = "In *ICA*"
+publication = "In *26th Usenix Security Symposium*. You may use *Markdown* for italics etc."
+publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "The abstract. Markdown and math can be used (note that math may require escaping as detailed in the red alert box below)."
-abstract_short = "A short version of the abstract."
+abstract = "Intel SGX isolates the runtime memory of protected applications (enclaves) from the OS and allows enclaves to encrypt and authenticate (seal) data for persistent storage. Sealing prevents an untrusted OS from reading or arbitrarily modifying stored data. However, rollback attacks, where the adversary replays an old seal, remain possible. Data integrity violations through rollback can have severe consequences, especially for enclaves that operate on financial data. The SGX architecture was recently updated to support monotonic counters that may be used for rollback prevention, but we show that these counters have significant performance and security limitations.
+
+In this paper we propose a new approach for rollback protection on SGX. The intuition behind our approach is simple. A single platform cannot efficiently prevent rollback, but in many practical scenarios multiple processors can be enrolled to assist each other. We design and implement a rollback protection system called ROTE that realizes integrity protection as a distributed system among participating enclaves. We construct a model that captures the ability of the adversary to schedule the execution of protected applications, and show that our solution achieves a strong security property that we call *all-or-nothing rollback*: the only way to violate data integrity is to reset all participating platforms to their initial state. We implement ROTE and demonstrate that such a distributed rollback protection mechanism can be very fast."
+
+
+abstract_short = ""
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -39,7 +44,8 @@ selected = true
 projects = []
 
 # Links (optional).
-url_pdf = "pdf/my-paper-name.pdf"
+#url_pdf = "pdf/my-paper-name.pdf"
+url_pdf = "https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-matetic.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -62,8 +68,8 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption 😄"
+image = ""
+caption = ""
 
 +++
 
