@@ -13,8 +13,13 @@ subtitle = ""
 # Order that this section will appear in.
 weight = 10
 
+# This is an example of using the *custom* widget to create your own homepage section.
+# To remove this section, either delete `content/home/teaching.md` or edit the frontmatter of the file to deactivate the widget by setting `active = false`.
+
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+Sinisa actively performs independent consulting on a broad range of IT topics. Example projects include system and concept design, protocol design and analysis, risk assessment, strategy and roadmap development, PMO for existing company projects, and more.
 
-To remove this section, either delete `content/home/teaching.md` or edit the frontmatter of the file to deactivate the widget by setting `active = false`.
+You are welcome to reach out using the contact details for more information.
+
+
