@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Information Security (ongoing)"
+  course = "PhD in Information Security"
   institution = "ETH Zurich"
   year = 2018
 
@@ -45,4 +45,4 @@ weight = 5
 
 # Biography
 
-IT and Security specialist with 7+ years experience in various industries. Experienced management consultant with work on diverse topics related to information technology. As an independent consultant, successful in creating and designing secure system architectures especially related to blockchain technologies and distributed systems, developing IT strategies and roadmaps for startups and SMBs, and leading company-internal project teams. Professional, creative and flexible with proven analytical skills.
+IT and Security specialist with 8+ years experience in various industries. Experienced management consultant with work on diverse topics related to information technology. As an independent consultant, successful in creating and designing secure system architectures especially related to blockchain technologies and distributed systems, developing IT strategies and roadmaps for startups and SMBs, and leading company-internal project teams. Professional, creative and flexible with proven analytical skills.
