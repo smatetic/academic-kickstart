@@ -64,9 +64,9 @@ enableGitInfo = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "sinisa.matetic@inf.ethz.ch"
-  address = "Universitatstrasse 6, CH-8092 Zurich, CNB F101"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "+41 78 858 5095"
+  address = ""
+  office_hours = ""
+  phone = ""
   skype = ""
   telegram = ""
 
